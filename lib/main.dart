@@ -4,6 +4,7 @@ import 'package:sizer/sizer.dart';
 
 import '../core/app_export.dart';
 import '../widgets/custom_error_widget.dart';
+import './routes/app_routes.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,9 +29,6 @@ class MyApp extends StatelessWidget {
     return Sizer(builder: (context, orientation, screenType) {
       return MaterialApp(
         title: 'zentab',
-        theme: AppTheme.lightTheme,
-        darkTheme: AppTheme.darkTheme,
-        themeMode: ThemeMode.light,
         // 🚨 CRITICAL: NEVER REMOVE OR MODIFY
         builder: (context, child) {
           return MediaQuery(

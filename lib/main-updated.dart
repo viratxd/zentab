@@ -12,6 +12,7 @@ import 'package:sizer/sizer.dart';
 
 import '../core/app_export.dart';
 import '../widgets/custom_error_widget.dart';
+import './routes/app_routes.dart';
 
 var backendURL = "https://zentab7503back.builtwithrocket.new/log-error";
 
@@ -42,9 +43,6 @@ class MyApp extends StatelessWidget {
       return MaterialApp(
         navigatorObservers: [routeObserver],
         title: 'zentab',
-        theme: AppTheme.lightTheme,
-        darkTheme: AppTheme.darkTheme,
-        themeMode: ThemeMode.light,
         // 🚨 CRITICAL: NEVER REMOVE OR MODIFY
         builder: (context, child) {
           return CustomWidgetInspector(

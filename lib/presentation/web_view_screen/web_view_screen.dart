@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import '../../core/app_export.dart';
 import '../../theme/app_theme.dart';
 import './widgets/web_view_app_bar_widget.dart';
 import './widgets/web_view_bottom_toolbar_widget.dart';
