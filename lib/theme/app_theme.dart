@@ -103,7 +103,7 @@ class AppTheme {
     ),
 
     // Card theme with spatial design and purposeful shadows
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: cardLight,
       elevation: 1,
       shadowColor: shadowLight,
@@ -294,7 +294,7 @@ class AppTheme {
       ),
     ),
 
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryLight,
       unselectedLabelColor: onSurfaceVariantLight,
       indicatorColor: primaryLight,
@@ -348,7 +348,7 @@ class AppTheme {
     ),
 
     // Dialog theme for session management
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       backgroundColor: surfaceLight,
       elevation: 8,
       shadowColor: shadowLight,
@@ -424,7 +424,7 @@ class AppTheme {
     ),
 
     // Card theme with spatial design and purposeful shadows
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: cardDark,
       elevation: 2,
       shadowColor: shadowDark,
@@ -615,7 +615,7 @@ class AppTheme {
       ),
     ),
 
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryDark,
       unselectedLabelColor: onSurfaceVariantDark,
       indicatorColor: primaryDark,
@@ -669,7 +669,7 @@ class AppTheme {
     ),
 
     // Dialog theme for session management
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       backgroundColor: surfaceDark,
       elevation: 8,
       shadowColor: shadowDark,
